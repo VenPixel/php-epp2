@@ -11,7 +11,13 @@
             "email": "hello@afri.cc",
             "homepage": "https://www.afri.cc",
             "role": "Developer"
-        }
+        },
+	{
+		"name": "Andrew W",
+		"email": "andrew@easydns.com",
+		"homepage": "https://easydns.com",
+		"role": "Developer"
+	}
     ],
     "require": {
         "php": ">=5.5.0",
