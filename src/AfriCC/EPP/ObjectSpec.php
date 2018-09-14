@@ -29,6 +29,9 @@ class ObjectSpec
         'contact' => [
             'xmlns' => 'urn:ietf:params:xml:ns:contact-1.0',
         ],
+        'fury' => [
+            'xmlns' => 'urn:ietf:params:xml:ns:fury-2.0',
+        ]
     ];
 
     public static $mappings = [
