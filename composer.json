@@ -1,8 +1,8 @@
 {
-    "name": "africc/php-epp2",
+    "name": "VenPixel/php-epp2",
     "type": "library",
-    "description": "A High Level EPP (Extensible Provisioning Protocol) TCP/SSL Client for PHP",
-    "keywords": ["epp", "domains", "registrar", "registry", "client", "tcp"],
+    "description": "A High Level EPP (Extensible Provisioning Protocol) TCP/SSL Client for PHP (with CIRA Fury support)",
+    "keywords": ["epp", "domains", "registrar", "registry", "client", "tcp", "cira", "fury"],
     "homepage": "https://github.com/AfriCC/php-epp2",
     "license": "GPL-3.0+",
     "authors": [
