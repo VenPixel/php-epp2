@@ -69,7 +69,7 @@ class Response extends AbstractFrame
         return (int) $this->get('//epp:epp/epp:response/epp:result/epp:extValue/epp:value/fury:ciraCode/text()');
     }
 
-    public function getReason(&$frame) : string {
+    public function getReason() : string {
         return (string) $this->get('//epp:epp/epp:response/epp:result/epp:extValue/epp:reason/text()');
     }
 
