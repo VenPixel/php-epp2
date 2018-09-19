@@ -66,6 +66,15 @@ class FuryContact extends ContactCreate implements Extension
         return $this->appendAuthInfo('contact:authInfo/contact:pw', $pw);
     }
 
+    public function setVoice($voice, $ext=false)
+    {
+        if($ext) {
+            $this->set(sprintf('//epp:epp/epp:command/epp:create/contact:create/contact:voice[@x=\'%d\']', $ext), $voice);
+        } else {
+            $this->set('//epp:epp/epp:command/epp:create/contact:create/contact:voice', $voice);
+        }
+    }
+
     public function getExtensionNamespace()
     {
         return $this->extension_xmlns;
